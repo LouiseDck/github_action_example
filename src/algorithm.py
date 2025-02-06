@@ -1,6 +1,7 @@
 import numpy as np
 
 def very_complex_algorithm(param1, param2):
+    print('Very complex algorithm')
     param1, param2 = preprocess_params(param1, param2)
     return np.random.randint(1, 150, (param1, param2))
 
