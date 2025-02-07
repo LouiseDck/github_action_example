@@ -1,0 +1,30 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[project]
+name = "cool_algorithm"
+version = "0.0.1"
+description = "Example of a cool algorithm"
+readme = "README.md"
+maintainers = [
+    { name = "Louise Deconinck", email = "louise.deconinck@gmail.com" }
+]
+authors = [
+    { name = "Louise Deconinck", email = "louise.deconinck@gmail.com" }
+]
+requires-python = ">=3.10"
+classifiers = [
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+
+dependencies = [
+    "numpy",
+]
+optional-dependencies.test = [
+    "pytest"
+]
