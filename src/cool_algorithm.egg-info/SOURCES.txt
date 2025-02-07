@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/cool_algorithm/__init__.py
+src/cool_algorithm/algorithm.py
+src/cool_algorithm.egg-info/PKG-INFO
+src/cool_algorithm.egg-info/SOURCES.txt
+src/cool_algorithm.egg-info/dependency_links.txt
+src/cool_algorithm.egg-info/requires.txt
+src/cool_algorithm.egg-info/top_level.txt
+tests/test_algorithm.py

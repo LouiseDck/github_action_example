@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: cool_algorithm
+Version: 0.0.1
+Summary: Example of a cool algorithm
+Author-email: Louise Deconinck <louise.deconinck@gmail.com>
+Maintainer-email: Louise Deconinck <louise.deconinck@gmail.com>
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+This is an example repository to show some GitHub basics.
